@@ -1,0 +1,107 @@
+body{
+    /* background-image: url(https://img.freepik.com/free-vector/minimal-love-hearts-background-with-text-space_1017-23417.jpg); */
+    /* background-repeat: no-repeat; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdO1BWsntgUWURXJWuIpHbfem1wZHZWWfeaTJnUhWKgaGMfAimdVqQixSj_4xY7gONd8&usqp=CAU);
+}
+.date{
+    color: rgb(136, 151, 161);
+    font-family:cursive;
+    margin: 25px 0px 0px 100px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+h1 {
+    margin: 0px 0px 10px 500px;
+}
+h1 span {
+    color: rgb(13, 90, 109);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight:100px ;
+    font-style: italic;
+
+}
+
+span:hover {
+    font-style: normal;
+}
+
+BUTTON{
+    margin:0px 500px ;
+    border: 2px solid rgb(13, 90, 109);
+}
+button img{
+    height: 200px;
+    width: 200px;
+}
+#d1{
+    margin: 20px 200px 7px 250px;
+    background-color: rgb(59, 151, 151);
+    flex-direction: column;
+    text-align: center;
+    font-family: cursive;
+}
+#d2{
+    padding: 0px 350px;
+    background-color: rgb(218, 58, 90);
+    flex-direction: column;
+    color: antiquewhite;
+    margin-bottom: 5px;
+    margin-right: auto;
+}
+#d3{
+    background-color: rgb(245, 100, 160);
+    flex-direction: column;
+    color: rgb(250, 245, 248);
+    padding: 0px 200px;
+    margin-bottom: 5px;
+}
+#d4{
+    background-color: rgb(250, 12, 12);
+    color: rgb(245, 244, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 0px 170px;
+    margin-bottom: 5px;
+}
+#d5{
+    background-color: rgb(123, 226, 20);
+    padding: 0px 380px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    /* margin-right: 100px; */
+}
+#d6{
+    background-color: rgb(191, 237, 243);
+    color: rgb(5, 52, 66);
+    padding: 0px 270px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+#d7{
+    background-color: pink;
+    color: purple;
+    padding: 0px 270px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2px;
+}
+#d8{
+    background-color: aquamarine;
+    color: rgb(65, 4, 46);
+    padding: 0px 270px;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+#d9{
+    background-color: black;
+    color: rgb(240, 61, 61);
+    padding: 5px 270px;
+    font-weight: lighter;
+    font-style: italic;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+}

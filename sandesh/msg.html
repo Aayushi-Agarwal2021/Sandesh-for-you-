@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/msg.css">
+    <title>FOR YOU</title>
+    
+</head>
+<body>
+    <p class="date">7-02-2002 -- 7-02-2023</p>
+ <h1>Hello <span>DEAR</span></h1>
+ <!-- <form>
+ <input type="button" value="hi love" onclick="gift1()">
+</form> -->
+ <button class="button" onclick="gift1()"><img src="https://img.freepik.com/premium-vector/gift-box-with-bow-button-get-your-gift-badge-promotions-social-networks-bonuses-discounts-rewards-customers_202197-9.jpg?w=2000"></button>
+ 
+ <div  id="d1" onclick="msg()"> </div>
+<div  id="d2" onclick="msg()"> </div>
+<div  id="d3" onclick="msg()"> </div>
+<div  id="d4" onclick="msg()"> </div>
+<div  id="d5" onclick="msg()"> </div>
+<div  id="d6" onclick="msg()"> </div>
+<div  id="d7" onclick="msg()"></div>
+<div  id="d8" onclick="msg()"> </div>
+<div  id="d9" onclick="msg()"> </div>
+<script>
+    function gift1(){
+        alert(" HAPPY BIRTHDAY FRIEND!");
+        
+        alert("be ready for a  unique surprise.");
+        alert("INSTRUCTIONS: ab hum khelenge ek game.");
+        alert("un-reveal your wishes one after one  by clicking on any wish and then enter numbers(range: 2to9)")
+        r=prompt("Press OK , YES Press OK ","1");
+        if (r == 1)
+        document.getElementById("d1").innerHTML="Let's wish you in a unique way...";
+    }
+    function msg()
+    {
+       
+        two="Happy birthday to my BFF! I can\’t imagine my life without you.";
+        three="Wishing you nothing but love & happiness on your special day.I hope your day is as special as you are.";
+        four="You’re one of a kind and deserve everything that this special day brings!";
+        five=" Wishing my favorite partner in crime a very happy birthday!";
+        six="It is pretty cool that we have been together for however long we've been together. ";
+        seven= "You are the BEST... you are my CONSTANT "
+        eight="... M Y    F O R E V E R! ..."
+        nine=" i loooveeeeeeeee u so so much . HBD to my favorite secret keeper!.. :)"
+        r=prompt("khojo khojo , ab konsi wish aayegi ");
+    
+        if (r==2)
+        document.getElementById("d2").innerHTML=two;
+        if (r == 3)
+        document.getElementById("d3").innerHTML=three;
+        if (r==4)
+        document.getElementById("d4").innerHTML=four;
+        if (r==5)
+        document.getElementById("d5").innerHTML=five;
+        if (r == 6)
+        document.getElementById("d6").innerHTML=six;
+        if (r==7)
+        document.getElementById("d7").innerHTML=seven;
+        if (r==8)
+        document.getElementById("d8").innerHTML=eight;
+        if (r ==9)
+        document.getElementById("d9").innerHTML=nine;
+        if(r>9 || r<1)
+        alert("Enter a valid number please.");
+        
+        
+    }
+</script>
+</body>
+</html>
